@@ -1,15 +1,15 @@
 /**
  * This is the standard index.ts starting point.
  *
- * author  Mr Coxall
+ * author  Curtis Edwards
  * version 1.0
- * since   2020-01-01
+ * since   2024-03-19
  */
-import MyBicycle from './Bicycle'
+import MrCoxallStack from './MrCoxallStack'
 
 // use Bicycle class
-const someBicycle1 = new MyBicycle()
-const someBicycle2 = new MyBicycle()
+const someBicycle1 = new MrCoxallStack()
+const someBicycle2 = new MrCoxallStack()
 someBicycle1.
 
 console.log('\nSet speed to 10 on bike 1.')
