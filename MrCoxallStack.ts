@@ -6,6 +6,6 @@
  */
 
 class MrCoxallStack {
-  
+  stackAsList: list
 }
 export = MrCoxallStack
