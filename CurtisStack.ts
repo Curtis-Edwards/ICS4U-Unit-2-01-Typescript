@@ -5,7 +5,7 @@
  * since   2024-03-19
  */
 
-class CurtisStack {
+export class CurtisStack {
   stackAsList = []
 
   push(input) {
@@ -21,4 +21,4 @@ class CurtisStack {
     return values
   }
 }
-export = CurtisStack
+//export = CurtisStack
