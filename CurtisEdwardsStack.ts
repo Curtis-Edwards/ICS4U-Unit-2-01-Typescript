@@ -5,7 +5,7 @@
  * since   2024-03-19
  */
 
-class MrCoxallStack {
-  stackAsList: list
+class CurtisEdwardsStack {
+  
 }
-export = MrCoxallStack
+export = CurtisEdwardsStack
