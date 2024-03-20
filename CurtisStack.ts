@@ -9,17 +9,16 @@ class CurtisStack {
   stackAsList = []
 
   push(input) {
-    self.strstack.push(input)
+    self.stackAsList.push(input)
   }
 
   show() {
     let values = ""
-    for (let counter = 0; counter < self.strstack.length; counter++) {
-      values = values + self.strstack[counter] + ", "
+    for (let counter = 0; counter < self.stackAsList.length; counter++) {
+      values = values + self.stackAsList[counter] + ", "
     }
     values = values.substring(0, values.length-2)
     return values
   }
-}
 }
 export = CurtisStack
