@@ -19,9 +19,9 @@ colours.push("blue")
 console.log("colours: " + colours.show())
 
 let shapes = new CurtisStack()
-animals.push("square")
-animals.push("triangle")
-animals.push("circle")
+shapes.push("square")
+shapes.push("triangle")
+shapes.push("circle")
 console.log("shapes: " + shapes.show())
 
 console.log("\nDone.")
