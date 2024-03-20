@@ -8,9 +8,7 @@
 
 export class CurtisStack {
   // variables
-  constructor() {
-    self.stackAsList = []
-  }
+  self.stackAsList = []
 
   push(input) {
     self.stackAsList.push(input)
