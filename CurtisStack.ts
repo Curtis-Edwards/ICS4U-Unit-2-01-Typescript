@@ -6,11 +6,7 @@
  */
 
 class CurtisStack {
-  // strstack: string[]
-
-  constructor() {
-    self.strstack = []
-  }
+  stackAsList = []
 
   push(input) {
     self.strstack.push(input)
