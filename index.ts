@@ -5,7 +5,7 @@
  * version 1.0
  * since   2024-03-19
  */
-import CurtisEdwardsStack from './CurtisEdwardsStack'
+import CurtiStack from './CurtisStack'
 
 // use Bicycle class
 const someBicycle1 = new MrCoxallStack()
