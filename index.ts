@@ -22,6 +22,6 @@ let shapes = new CurtisStack()
 animals.push("square")
 animals.push("triangle")
 animals.push("circle")
-console.log("animals: " + animals.show())
+console.log("shapes: " + shapes.show())
 
 console.log("\nDone.")
