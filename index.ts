@@ -5,7 +5,7 @@
  * version 1.0
  * since   2024-03-19
  */
-import { CurtiStack } from './CurtisStack'
+import { CurtisStack } from './CurtisStack'
 
 let fruits = new CurtiStack()
 fruits.push("apple")
