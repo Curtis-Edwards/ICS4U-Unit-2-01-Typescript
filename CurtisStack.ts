@@ -16,7 +16,7 @@ export class CurtisStack {
     self.stackAsList.push(input)
   }
 
-  show() {
+  showStack() {
     let values = ""
     for (let counter = 0; counter < self.stackAsList.length; counter++) {
       values = values + self.stackAsList[counter] + ", "
@@ -25,4 +25,3 @@ export class CurtisStack {
     return values
   }
 }
-//export = CurtisStack
