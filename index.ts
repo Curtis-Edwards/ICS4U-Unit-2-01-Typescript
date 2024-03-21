@@ -10,6 +10,7 @@ import { CurtisStack } from './CurtisStack'
 let fruits = new CurtisStack()
 fruits.push("apple")
 fruits.push("banana")
+fruits.push("cherry")
 console.log("fruits: " + fruits.show())
 
 let colours = new CurtisStack()
