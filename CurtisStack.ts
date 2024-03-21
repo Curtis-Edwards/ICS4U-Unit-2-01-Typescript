@@ -12,8 +12,8 @@ export class CurtisStack {
     self.stackAsList = []
   }
 
-  push() {
-    self.stackAsList.push()
+  push(input) {
+    self.stackAsList.push(input)
   }
 
   showStack() {
