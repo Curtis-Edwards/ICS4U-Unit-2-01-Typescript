@@ -12,10 +12,12 @@ export class CurtisStack {
     self.stackAsList = []
   }
 
+  // This function pushes the object to a list
   push(input) {
     self.stackAsList.push(input)
   }
 
+  // This function prints out the object
   showStack() {
     let values = ""
     for (let counter = 0; counter < self.stackAsList.length; counter++) {
